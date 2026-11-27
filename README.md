@@ -3,7 +3,7 @@
 本仓库是 [storage-lock](https://github.com/storage-lock) 生态的示例与选型指南。
 每个存储的用法都是同一套模式：
 
-> 公开模块默认只展示可通过 Go Proxy 下载的示例；etcd、Redis、LevelDB、MySQL 示例依赖组织内私有 backend 模块，需要在有仓库权限的完整工作区中运行。
+> 根模块直接展示可通过 Go Proxy 下载的示例；etcd、Redis、LevelDB 位于各自独立子模块，依赖组织内私有 backend，需要在有仓库权限的完整工作区运行。MySQL 示例使用公开 backend 模块。
 
 ```
 构造 Storage（DSN/URI/路径）→ NewLock 创建锁 → Lock/UnLock（或 RLock/WLock）→ 看门狗自动续租
