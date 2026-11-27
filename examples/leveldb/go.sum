@@ -41,6 +41,8 @@ github.com/storage-lock/go-leveldb-storage v0.0.1 h1:X3rmP/5CXbntP8/AtFegKJyHzKn
 github.com/storage-lock/go-leveldb-storage v0.0.1/go.mod h1:9gPsfwZ58lRk0llNzdwO/QqXv4NaTOOqLFEe5LFoGA8=
 github.com/storage-lock/go-storage v0.0.3 h1:oHhi/qTfZjqLZGtAM3H7El6Fffr+la5pTaIjZhf6B3I=
 github.com/storage-lock/go-storage v0.0.3/go.mod h1:dadPDy/3aiXNNgGcbqOCZ48Bafo8tHQl3ybhwKZ4I0o=
+github.com/storage-lock/go-storage v0.1.0 h1:rMdGHd/0TNGkLpQpurW2q2zSaQ/zircwJ/oPdZDqZG8=
+github.com/storage-lock/go-storage v0.1.0/go.mod h1:dadPDy/3aiXNNgGcbqOCZ48Bafo8tHQl3ybhwKZ4I0o=
 github.com/storage-lock/go-storage-events v0.0.8 h1:LEHEquFf7E+KhM/357w+nXY1/+N0EZeCiZMZhkMNQJI=
 github.com/storage-lock/go-storage-events v0.0.8/go.mod h1:vGFyJHNIrBNAb7bRXHBWBYTWL1m22svGLYwkTc1k3L0=
 github.com/storage-lock/go-storage-lock v0.0.7 h1:ZXAU8seQ+ZVeVtgaGWMd/gqeo5eOt3AkdjaBKJU00Xs=

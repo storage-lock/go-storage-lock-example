@@ -15,7 +15,7 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/storage-lock/go-events v0.0.5 // indirect
 	github.com/storage-lock/go-leveldb-storage v0.0.1 // indirect
-	github.com/storage-lock/go-storage v0.0.3 // indirect
+	github.com/storage-lock/go-storage v0.1.0 // indirect
 	github.com/storage-lock/go-storage-events v0.0.8 // indirect
 	github.com/storage-lock/go-storage-lock v0.0.7 // indirect
 	github.com/storage-lock/go-storage-lock-factory v0.0.2 // indirect

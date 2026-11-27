@@ -38,8 +38,8 @@ github.com/storage-lock/go-redis-locks v0.0.2 h1:I6Pq/x120aH6Vl+ymFBHrpFpQ19cyjJ
 github.com/storage-lock/go-redis-locks v0.0.2/go.mod h1:ku4BvEbqYrYqitJmqfrHlzcGx2aUPmqMdPZZNkgLo10=
 github.com/storage-lock/go-redis-storage v0.0.1 h1:ZT/2NtRZdDrPzxUF6gQ3Soz0638BhbkeE6tfiBt2S2U=
 github.com/storage-lock/go-redis-storage v0.0.1/go.mod h1:ENLCWhWF9EYRjzfZhkxhN5dy3b48Jl3i25n2bGCgHhc=
-github.com/storage-lock/go-storage v0.0.3 h1:oHhi/qTfZjqLZGtAM3H7El6Fffr+la5pTaIjZhf6B3I=
-github.com/storage-lock/go-storage v0.0.3/go.mod h1:dadPDy/3aiXNNgGcbqOCZ48Bafo8tHQl3ybhwKZ4I0o=
+github.com/storage-lock/go-storage v0.1.0 h1:rMdGHd/0TNGkLpQpurW2q2zSaQ/zircwJ/oPdZDqZG8=
+github.com/storage-lock/go-storage v0.1.0/go.mod h1:dadPDy/3aiXNNgGcbqOCZ48Bafo8tHQl3ybhwKZ4I0o=
 github.com/storage-lock/go-storage-events v0.0.8 h1:LEHEquFf7E+KhM/357w+nXY1/+N0EZeCiZMZhkMNQJI=
 github.com/storage-lock/go-storage-events v0.0.8/go.mod h1:vGFyJHNIrBNAb7bRXHBWBYTWL1m22svGLYwkTc1k3L0=
 github.com/storage-lock/go-storage-lock v0.0.7 h1:ZXAU8seQ+ZVeVtgaGWMd/gqeo5eOt3AkdjaBKJU00Xs=
