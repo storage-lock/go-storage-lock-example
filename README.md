@@ -22,19 +22,19 @@
 
 ## 跨语言互操作（HTTP 锁服务网关）
 
-[examples/http_gateway](examples/http_gateway) 演示"锁服务网关"模式：
+[examples/http_gateway](examples/http_gateway)（独立子模块）演示"锁服务网关"模式：
 **Go 进程持有存储介质，通过无状态 HTTP 接口把锁语义暴露给任意语言**。
 非 Go 语言不需要重新实现 CAS / 租约 / fencing token。
 
 ```bash
 # 1. 起 Go 服务（默认 memory 存储）
-go run ./examples/http_gateway
+cd examples/http_gateway && go run .
 
 # 2. 另开终端：Python 客户端
-python3 ./examples/http_gateway/client.py
+python3 client.py
 
 # 3. 或 Java 客户端
-javac -d /tmp -cp <java-storage-lock-src> ./examples/http_gateway/Client.java
+javac -d /tmp -cp <java-storage-lock-src> Client.java
 java -cp /tmp Client
 ```
 

@@ -50,8 +50,6 @@ github.com/storage-lock/go-storage-test-helper v0.0.3 h1:y8B24zJkQaI7uYOW2MTBIHT
 github.com/storage-lock/go-storage-test-helper v0.0.3/go.mod h1:Zn6YIq0r0pmK+naGUhRhb7TqTEFDjoU+25yIugt9iAw=
 github.com/storage-lock/go-utils v0.0.2 h1:pdacTOlD+AHqwWVmDqZLcjKF+7p8TjsmlvZ9bmmkIfE=
 github.com/storage-lock/go-utils v0.0.2/go.mod h1:tx8ATHL7yOC0Nyjpba7hJNk0+QNt2XEnMr8NcGm9Gak=
-github.com/storage-lock/storage-lock-http-api v0.0.5 h1:V8ydtzhSzJjaPtvTusirYTA1ecGUfHVcAGsaaXCJRJg=
-github.com/storage-lock/storage-lock-http-api v0.0.5/go.mod h1:/SY8Asiv3OHlzjU4F/fg2RWQccMtm9RY55r+QWRqRwY=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
