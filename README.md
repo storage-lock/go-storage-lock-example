@@ -3,6 +3,8 @@
 本仓库是 [storage-lock](https://github.com/storage-lock) 生态的示例与选型指南。
 每个存储的用法都是同一套模式：
 
+> 公开模块默认只展示可通过 Go Proxy 下载的示例；etcd、Redis、LevelDB、MySQL 示例依赖组织内私有 backend 模块，需要在有仓库权限的完整工作区中运行。
+
 ```
 构造 Storage（DSN/URI/路径）→ NewLock 创建锁 → Lock/UnLock（或 RLock/WLock）→ 看门狗自动续租
 ```
@@ -12,10 +14,10 @@
 | 示例 | 存储 | 运行 |
 |------|------|------|
 | [quick_start](examples/quick_start/main.go) | 内存（演示用） | `go run ./examples/quick_start` |
-| [redis](examples/redis/main.go) | Redis | `STORAGE_LOCK_REDIS_URI=redis://localhost:6379/0 go run ./examples/redis` |
-| [mysql](examples/mysql/main.go) | MySQL | `STORAGE_LOCK_MYSQL_DSN=root:pass@tcp(host:3306)/db go run ./examples/mysql` |
-| [etcd](examples/etcd/main.go) | etcd | `STORAGE_LOCK_ETCD_ENDPOINTS=127.0.0.1:2379 go run ./examples/etcd` |
-| [leveldb](examples/leveldb/main.go) | LevelDB（嵌入式） | `go run ./examples/leveldb` |
+| [redis](examples/redis/main.go) | Redis（需要组织内 backend 模块权限） | 工作区内 `STORAGE_LOCK_REDIS_URI=redis://localhost:6379/0 go run ./examples/redis` |
+| [mysql](examples/mysql/main.go) | MySQL（需要组织内 backend 模块权限） | 工作区内 `STORAGE_LOCK_MYSQL_DSN=root:pass@tcp(host:3306)/db go run ./examples/mysql` |
+| [etcd](examples/etcd/main.go) | etcd（需要组织内 backend 模块权限） | 工作区内 `STORAGE_LOCK_ETCD_ENDPOINTS=127.0.0.1:2379 go run ./examples/etcd` |
+| [leveldb](examples/leveldb/main.go) | LevelDB（需要组织内 backend 模块权限） | 工作区内 `go run ./examples/leveldb` |
 | [filesystem](examples/filesystem/main.go) | 文件系统（flock） | `go run ./examples/filesystem` |
 
 ## 跨语言互操作（HTTP 锁服务网关）
