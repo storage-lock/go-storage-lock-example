@@ -6,7 +6,8 @@ require (
 	github.com/storage-lock/go-filesystem-storage v0.0.2
 	github.com/storage-lock/go-memory-locks v0.0.1
 	github.com/storage-lock/go-mysql-locks v0.0.1
-	github.com/storage-lock/go-storage-lock v0.0.7
+	github.com/storage-lock/go-storage v0.1.0
+	github.com/storage-lock/go-storage-lock v0.1.0
 )
 
 require (
@@ -22,7 +23,6 @@ require (
 	github.com/storage-lock/go-memory-storage v0.0.1 // indirect
 	github.com/storage-lock/go-mysql-storage v0.0.3-0.20230912011331-93f8153bb8b7 // indirect
 	github.com/storage-lock/go-sql-based-storage v0.0.2 // indirect
-	github.com/storage-lock/go-storage v0.0.3 // indirect
 	github.com/storage-lock/go-storage-events v0.0.8 // indirect
 	github.com/storage-lock/go-storage-lock-factory v0.0.2 // indirect
 	github.com/storage-lock/go-utils v0.0.2 // indirect

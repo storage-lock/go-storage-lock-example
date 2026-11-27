@@ -1,1 +1,7 @@
 .idea
+# 构建产物，不要提交
+quick_start
+examples/etcd/etcd
+examples/redis/redis
+examples/leveldb/leveldb
+examples/http_gateway/http-gateway
